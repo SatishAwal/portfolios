@@ -1,0 +1,19 @@
+.skill-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center cards */
+    padding: 10px; /* Padding around the list */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .skill-card {
+        width: calc(50% - 40px); /* 2 cards per row on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-card {
+        width: calc(100% - 40px); /* 1 card per row on small screens */
+    }
+}

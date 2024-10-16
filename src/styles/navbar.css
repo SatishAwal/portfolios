@@ -1,0 +1,33 @@
+/* src/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white ; /* You can change this to your preferred color */
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust the height as necessary */
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Space between links */
+  }
+  
+  .nav-links li {
+    margin: 10px;
+  }
+  
+  .nav-links a {
+    color: black; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

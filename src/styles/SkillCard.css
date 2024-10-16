@@ -1,0 +1,25 @@
+.skill-card {
+    background-color: white; /* Card background */
+    border: 1px solid #e1e1e1; /* Card border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    margin: 20px; /* Space around each card */
+    padding: 15px; /* Padding inside the card */
+    width: calc(25% - 40px); /* Set width to roughly 1/4 of the container minus margins */
+    max-width: 300px; /* Optional: maximum width for each card */
+}
+
+.skill-card h2 {
+    font-size: 18px; /* Title font size */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.skill-card ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.skill-card li {
+    font-size: 16px; /* List item font size */
+    margin: 5px 0; /* Space between list items */
+}
