@@ -43,14 +43,14 @@ const Contact = () => {
           <label htmlFor="name">Name</label>
           <input type="text" id="name" name="name" value={formData.name}
             onChange={handleChange}
-            required placeholder="First_Name Last_Name" />
+            required placeholder="Full Name" />
 
           <label htmlFor="email">Email Address</label>
           <input type="email" id="email" name="email"
             value={formData.email}
             onChange={handleChange}
             required
-            placeholder="Email Address" />
+            placeholder="Email" />
 
           <label htmlFor="message">Your Message</label>
           <textarea id="message" name="message"

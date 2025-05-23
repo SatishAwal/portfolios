@@ -18,6 +18,8 @@ function App() {
 
       {/* Header Section */}
       <Header />
+
+      {/* Recent Projects */}
       <div id="projects">
         <h3>Recent Projects</h3>
         <ProjectList />
